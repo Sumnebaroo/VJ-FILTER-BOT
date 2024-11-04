@@ -95,6 +95,9 @@ async def start(client, message):
             return
         btn = [[
             InlineKeyboardButton("❆ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
+        ],[
+            InlineKeyboardButton("Join Channel", url="https://t.me/MOVIESSS_UPDATE"),
+            InlineKeyboardButton("Join Channel", url="https://t.me/MOOVIES_UPDATE")
         ]]
         if message.command[1] != "subscribe":
             if REQUEST_TO_JOIN_MODE == True:
